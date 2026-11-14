@@ -1,0 +1,15 @@
+{
+  "name": "taoist-legend-threejs",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A local third-person Taoist action game built with Three.js and Gaussian splatting.",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node server.mjs --open",
+    "check": "node scripts/check.mjs",
+    "test": "node --test tests/server.test.mjs",
+    "export:public": "node scripts/export-public.mjs"
+  },
+  "license": "SEE LICENSE IN LICENSE"
+}

@@ -1,0 +1,27 @@
+#launch-screen{position:fixed;inset:0;z-index:30;display:grid;place-items:center;overflow:hidden;background:#080e0f;color:#eee3c7;font-family:var(--hud-type);isolation:isolate}
+.launch-poster{position:relative;width:min(100vw,calc(100dvh * 4 / 3));aspect-ratio:4/3;flex:none;isolation:isolate;container-type:inline-size}
+.launch-art{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;display:block;z-index:-1}
+.launch-accessible-title{position:absolute!important;width:1px!important;height:1px!important;overflow:hidden!important;clip-path:inset(50%)!important;white-space:nowrap!important;margin:0!important}
+.launch-dock{position:absolute;left:50%;bottom:6%;transform:translateX(-50%);width:58%;text-align:center}
+#launch-screen #loading{position:static;transform:none;width:auto;margin:0;padding:0;border:0;border-radius:0;background:none;color:#eee3c7}
+#launch-screen .loading-mark{display:none}
+.launch-progress-heading{display:flex;justify-content:space-between;align-items:center;gap:16px;margin:0 0 clamp(6px,1cqw,13px)}
+#launch-screen #loading-text{margin:0;font:clamp(11px,1.3cqw,16px)/1.4 var(--hud-type);letter-spacing:.04em;text-align:left}
+#load-percent{color:#e5ca90;font-size:clamp(13px,1.7cqw,21px);font-variant-numeric:tabular-nums;line-height:1.2;flex:none}
+#launch-screen .progress-track{height:clamp(4px,.5cqw,6px);margin:0 0 clamp(6px,1cqw,12px);background:#344039;border:1px solid #8a7751;overflow:hidden}
+#launch-screen #progress{background:#d5b87d;transition:width .3s ease-out;height:100%;width:0}
+#launch-screen #load-detail{display:block;font:clamp(10px,1cqw,12px)/1.4 var(--hud-type);letter-spacing:0;color:#c9cfbc}
+#launch-screen #retry-button{margin:10px auto 0;padding:8px 20px;border:1px solid #d0b57e;color:#eee3c7;background:#17211c;border-radius:0;cursor:pointer;font:clamp(11px,1.2cqw,15px) var(--hud-type)}
+#launch-screen.has-error .progress-track,#launch-screen.has-error #load-detail{display:none!important}
+#launch-screen.has-error #retry-button{height:32px;padding:0 22px;margin-top:8px}
+#app #launch-screen #welcome{position:static;transform:none;max-width:none;margin:0;padding:0;border:0;background:none;display:flex;align-items:center;flex-direction:column;text-shadow:none}
+#launch-screen #welcome[hidden]{display:none!important}
+#app #launch-screen #welcome:before{display:none!important}
+#launch-screen #welcome h2,#launch-screen .welcome-copy,#launch-screen .welcome-note{display:none!important}
+#app #launch-screen #start-button{height:clamp(38px,4.3cqw,58px);min-width:0;width:clamp(160px,25cqw,300px);justify-content:center;padding:0 20px;color:#f0dfb4;font:clamp(14px,1.65cqw,21px) var(--hud-type);letter-spacing:.12em;background:#101a16cf;border:1px solid #c6aa71;border-radius:0;cursor:pointer;transition:background .2s;gap:14px}
+#app #launch-screen #start-button:hover{background:#344435}
+#app #launch-screen #start-button:focus-visible,#launch-screen #retry-button:focus-visible{outline:2px solid #eee3c7;outline-offset:5px}
+body:not(.aaa-started) .aaa-hud{visibility:hidden}
+@media(max-width:650px){.launch-dock{width:78%;bottom:5%}.launch-progress-heading{gap:10px}#app #launch-screen #start-button{height:38px;width:170px;font-size:14px}}
+@media(max-height:500px) and (min-aspect-ratio:4/3){.launch-dock{width:65%;bottom:5%}#launch-screen #load-detail{display:none}#app #launch-screen #start-button{height:36px;width:170px;font-size:14px}}
+@media(prefers-reduced-motion:reduce){#launch-screen #progress,#launch-screen #start-button{transition:none}}

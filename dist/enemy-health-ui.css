@@ -1,0 +1,18 @@
+.enemy-health-layer{position:absolute;inset:0;z-index:3;pointer-events:none;font-family:var(--hud-type);color:#eee3c7}
+.enemy-plaque{position:absolute;left:0;top:0;width:174px;filter:drop-shadow(0 3px 3px #080b08);will-change:transform}
+.enemy-name-row{display:flex;align-items:center;justify-content:space-between;margin:0 3px 6px;line-height:1.25;text-shadow:0 2px 3px #000}
+.enemy-name{font-size:14px;letter-spacing:.12em;color:#f0e5cc}.enemy-state{font-size:11px;color:#e0c99d}
+.enemy-health-track{position:relative;height:8px;padding:2px;background:#15120fee;border:1px solid #ad9061}
+.enemy-health-track:before,.enemy-health-track:after{content:'';position:absolute;width:4px;height:4px;top:1px;border:1px solid #c5aa75;background:#261d15;transform:rotate(45deg)}
+.enemy-health-track:before{left:-5px}.enemy-health-track:after{right:-5px}
+.enemy-health-track>i{position:absolute;inset:2px;transform-origin:left;display:block}
+.enemy-health-fill{background:#bc5442;transition:transform .16s ease-out,background .12s}
+.enemy-health-lag{background:#dab77d;transition:transform .75s cubic-bezier(.16,1,.3,1) .25s}
+.enemy-health-foot{display:flex;justify-content:space-between;margin:5px 3px 0;font-size:10px;line-height:1.2;color:#e6d5b2;text-shadow:0 2px 3px #000}
+.enemy-hp{font-variant-numeric:tabular-nums;letter-spacing:.03em}.enemy-status{letter-spacing:.15em}
+.enemy-windup{height:2px;margin:4px 3px 0;background:#49382e;visibility:hidden}.enemy-windup i{display:block;height:100%;background:#f3b77c;transform-origin:left}
+.enemy-plaque.is-attacking .enemy-windup{visibility:visible}.enemy-plaque.is-attacking .enemy-state,.enemy-plaque.is-attacking .enemy-status{color:#ffbe89}
+.enemy-plaque.is-hit .enemy-health-fill{background:#f4dfb5}.enemy-plaque.is-critical .enemy-health-track{border-color:#df8a6a}
+.enemy-plaque.is-reset .enemy-health-lag{transition:none}
+@media(max-width:650px){.enemy-plaque{width:140px}.enemy-name{font-size:12px}.enemy-name-row{margin-bottom:5px}.enemy-state{font-size:10px}.enemy-health-track{height:7px;padding:1px}.enemy-health-track>i{inset:1px}.enemy-health-foot{font-size:10px;margin-top:4px}}
+@media(prefers-reduced-motion:reduce){.enemy-health-fill,.enemy-health-lag{transition:none}}

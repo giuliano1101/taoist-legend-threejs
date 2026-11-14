@@ -1,0 +1,148 @@
+/* Readability sizes for the existing game HUD. Anchors stay at screen edges. */
+:root{--hud-gold:#d9bd80;--hud-ivory:#f4e8c9;--hud-jade:#93cbb6}
+.aaa-hud{font-weight:500;text-shadow:0 2px 4px #000,0 1px 2px #000}
+.aaa-vitals{left:34px;top:28px;gap:18px}
+.aaa-seal{width:94px;height:94px}
+.aaa-vital-body{width:324px}
+.aaa-character-name{font-size:26px;letter-spacing:.12em;margin-bottom:9px}
+.aaa-character-name>span{font-size:14px;margin-left:16px;color:#e6d2a8;opacity:1;letter-spacing:.05em}
+.aaa-resource{gap:12px;margin-top:7px}
+.aaa-resource>span{font-size:16px;letter-spacing:.05em}
+.aaa-meter{width:280px;height:14px;padding:2px;border-color:#d9bd80;background:#0a120ee8}
+.aaa-meter i{background:#e4cc96}
+.aaa-meter.spirit{width:244px;height:11px}
+.aaa-meter.spirit i{background:#93cbb6}
+.aaa-compass{top:27px;width:360px;color:#e7d0a0}
+.aaa-compass-line{height:35px;font-size:16px}
+.aaa-compass-line b{font-size:18px}
+.aaa-compass-line span{opacity:1}
+.aaa-compass-line:after{top:34px}
+.aaa-location{font-size:18px;line-height:1.3;margin-top:18px;padding:6px 30px;letter-spacing:.1em}
+.aaa-objective{right:36px;top:30px;max-width:300px}
+.aaa-objective h2{font-size:26px;letter-spacing:.06em;margin-bottom:10px}
+.aaa-objective p{font-size:17px;line-height:1.5;letter-spacing:.02em;margin-bottom:7px;color:#f0dfbb}
+.aaa-objective small{font-size:14px;letter-spacing:.03em;color:#e4d4b1}
+.aaa-diamond{width:10px;height:10px;margin-right:15px}
+.aaa-tools{top:160px;right:31px;gap:14px;opacity:1}
+.aaa-tool{width:44px;height:44px}
+.aaa-tool .aaa-icon{filter:brightness(1.16)}
+.aaa-tool.muted{opacity:.7}
+.aaa-tool.muted:after{width:28px;height:2px}
+.aaa-stance{left:36px;bottom:54px;gap:18px;min-width:340px}
+.aaa-stance-mark{width:56px;height:56px}
+.aaa-stance-mark>.aaa-icon{width:56px;height:56px}
+.aaa-stance-title{font-size:22px;letter-spacing:.08em}
+.aaa-combo{gap:14px;margin-top:15px}
+.aaa-combo i{width:8px;height:8px}
+#aaa-motion-slot{gap:7px;margin-left:12px}
+#aaa-motion-slot #motion-label{font-size:16px;letter-spacing:.02em;color:#f0dfbd}
+#aaa-motion-slot #position-label{font-size:14px;color:#d5ddc8}
+.aaa-abilities{right:36px;bottom:35px}
+.aaa-ability-row{gap:20px}
+.aaa-ability{width:106px}
+.aaa-medallion{width:90px;height:90px}
+.aaa-medallion>.aaa-icon{width:112px;height:112px}
+.aaa-ability-name{font-size:21px;letter-spacing:.08em;margin:12px 0 8px}
+.aaa-ability kbd{font-size:17px;width:36px;height:30px;line-height:27px;border-color:#c4ab73;color:#f0dfb4}
+.aaa-ability-link{width:27px;height:27px;margin-top:-58px;opacity:1}
+.aaa-input-hint{font-size:14px;line-height:1.5;margin-top:18px;padding-top:12px;color:#f0dfbd;letter-spacing:.02em}
+.aaa-input-hint span{padding:0 10px;opacity:1}
+.aaa-bottom-hint,.aaa-bottom-hint kbd{font-size:14px;color:#e4d8b8}
+.aaa-playing .aaa-bottom-hint{opacity:1}
+.enemy-plaque{width:224px}
+.enemy-name-row{margin:0 4px 8px}
+.enemy-name{font-size:18px;letter-spacing:.06em;color:#fff0d3}
+.enemy-state{font-size:14px;color:#f1d1a1}
+.enemy-health-track{height:12px;border-color:#d9b777;background:#100e0cf2}
+.enemy-health-track:before,.enemy-health-track:after{width:5px;height:5px;top:2px}
+.enemy-health-fill{background:#d76f59}
+.enemy-health-foot{font-size:13px;line-height:1.3;margin:7px 4px 0;color:#f4dfb7}
+.enemy-windup{height:3px;margin:6px 4px 0}
+#app .aaa-pause{min-width:420px;max-width:calc(100vw - 40px);padding:42px 48px}
+#app .aaa-pause h2{font-size:46px}
+#app .aaa-pause p{font-size:22px;letter-spacing:.1em}
+#app .aaa-pause .primary{font-size:22px;min-width:290px;height:60px}
+#app .aaa-pause>span{font-size:14px}
+#app .help.aaa-help{width:550px;max-width:calc(100vw - 40px);max-height:84dvh;padding:30px 36px;background:#101a14;scrollbar-color:#baa371 #162219;scrollbar-width:thin}
+#app .aaa-help h2{font-size:32px}
+#app .aaa-help dl>div{min-height:50px;gap:14px}
+#app .aaa-help dt{font-size:15px}
+#app .aaa-help dd{font-size:15px;color:#e0ddc6;line-height:1.5}
+#app .aaa-help kbd{font-size:13px;min-height:27px;min-width:27px}
+#app .aaa-help p{font-size:14px;line-height:1.85;color:#cdd4bd}
+#app .aaa-help #close-help{width:44px;height:44px;padding:10px}
+#app .aaa-help #close-help svg{width:24px;height:24px}
+#app .aaa-help button:focus-visible,#app .aaa-pause button:focus-visible{outline:2px solid #ecd8a7;outline-offset:3px;border-radius:0}
+#app:has(#help:not([hidden])) #pause{visibility:hidden}
+#app:has(#help:not([hidden])) #toast,#app:has(#pause:not([hidden])) #toast{display:none}
+.aaa-fog-setting{font-size:15px;padding-top:22px}
+.aaa-fog-setting input{height:28px;width:190px}
+.aaa-fog-symbol{width:36px;height:36px}
+#app .toast{font-size:16px;line-height:1.6;padding:14px 28px;max-width:calc(100% - 36px)}
+#reticle{width:26px;height:26px;opacity:1}
+#reticle i:first-child{left:12px;top:2px;width:2px;height:22px}
+#reticle i:last-child{top:12px;left:2px;height:2px;width:22px}
+#reticle::after{left:12px;top:12px;width:3px;height:3px}
+.touch-controls button{width:52px;height:52px;font-size:19px}
+.touch-actions button:last-child{width:60px;height:60px}
+#app #launch-screen #start-button{height:clamp(44px,4.8cqw,64px);width:clamp(196px,28cqw,340px);font-size:clamp(16px,1.85cqw,24px)}
+#launch-screen #loading-text{font-size:clamp(12px,1.55cqw,18px)}
+#launch-screen #load-percent{font-size:clamp(15px,2cqw,24px)}
+#launch-screen #load-detail{font-size:clamp(11px,1.1cqw,14px)}
+#launch-screen .progress-track{height:clamp(6px,.65cqw,8px)}
+#launch-screen #retry-button{font-size:clamp(13px,1.3cqw,17px)}
+@media(max-width:1300px) and (min-width:1101px){
+ .aaa-vitals{left:28px}.aaa-compass{width:320px}.aaa-objective{right:28px;max-width:260px}.aaa-objective h2{font-size:24px}.aaa-character-name>span{display:none}
+}
+@media(max-width:1100px){
+ .aaa-vitals{left:20px;top:22px;gap:10px}.aaa-seal{width:68px;height:68px}.aaa-vital-body{width:226px}
+ .aaa-character-name{font-size:21px;margin-bottom:7px}.aaa-character-name>span{display:none}.aaa-resource{gap:8px;margin-top:6px}.aaa-resource>span{font-size:14px}
+ .aaa-meter{width:190px;height:12px}.aaa-meter.spirit{width:168px;height:10px}
+ .aaa-compass{width:180px;top:22px}.aaa-compass-line{padding:0 14px}.aaa-location{font-size:17px;padding:6px 20px}
+ .aaa-objective{right:20px;top:24px;max-width:220px}.aaa-objective h2{font-size:21px}.aaa-objective p{font-size:15px}.aaa-objective small{font-size:13px}
+ .aaa-tools{right:18px;top:140px;gap:10px}.aaa-tool{width:42px;height:42px}
+ .aaa-stance{left:22px;bottom:44px;min-width:285px;gap:12px}.aaa-stance-title{font-size:19px}.aaa-stance-mark,.aaa-stance-mark>.aaa-icon{width:46px;height:46px}
+ #aaa-motion-slot{margin-left:5px}#aaa-motion-slot #motion-label{font-size:14px}#aaa-motion-slot #position-label{font-size:13px}
+ .aaa-abilities{right:24px;bottom:28px}.aaa-ability{width:90px}.aaa-medallion{width:76px;height:76px}.aaa-medallion>.aaa-icon{width:96px;height:96px}.aaa-ability-name{font-size:18px}.aaa-input-hint{font-size:13px}
+ .aaa-bottom-hint{display:none}
+}
+@media(max-width:860px){.aaa-compass{display:none}}
+@media(max-width:650px){
+ .aaa-vitals{left:14px;top:18px;gap:8px}.aaa-seal{width:54px;height:54px}.aaa-vital-body{width:156px}
+ .aaa-character-name{font-size:17px;letter-spacing:.06em;margin-bottom:6px}.aaa-resource{gap:6px;margin-top:5px}.aaa-resource>span{font-size:12px;letter-spacing:0}
+ .aaa-meter{width:126px;height:10px;padding:1px}.aaa-meter.spirit{width:112px;height:8px}
+ .aaa-objective{right:14px;top:18px;max-width:136px}.aaa-objective h2{font-size:17px;letter-spacing:.01em;margin-bottom:7px}.aaa-objective p{font-size:13px;line-height:1.5;letter-spacing:0}.aaa-objective small{font-size:12px;letter-spacing:0}
+ .aaa-diamond{width:7px;height:7px;margin-right:8px}
+ .aaa-tools{right:12px;top:111px;gap:6px}.aaa-tool{width:40px;height:40px}
+ .aaa-abilities{right:17px;bottom:23px}.aaa-ability{width:68px}.aaa-ability-row{gap:10px}.aaa-medallion{width:64px;height:64px}.aaa-medallion>.aaa-icon{width:80px;height:80px}
+ .aaa-ability-name{font-size:16px;margin:9px 0 6px}.aaa-ability kbd{font-size:15px;width:31px;height:27px;line-height:24px}.aaa-ability-link{width:18px;height:18px;margin-top:-44px}
+ .aaa-input-hint{font-size:13px;line-height:1.5;margin-top:12px;padding-top:10px}.aaa-input-hint span{padding:0 5px}
+ .aaa-stance{left:16px;bottom:50px;gap:10px;min-width:150px}.aaa-stance-mark,.aaa-stance-mark>.aaa-icon{width:36px;height:36px}.aaa-stance-title{font-size:16px}.aaa-combo{gap:10px;margin-top:11px}.aaa-combo i{width:6px;height:6px}
+ #aaa-motion-slot{position:absolute;left:0;top:55px;margin:0;gap:0}#aaa-motion-slot #motion-label{font-size:13px}#aaa-motion-slot #position-label{display:none}
+ .enemy-plaque{width:176px}.enemy-name{font-size:15px;letter-spacing:.02em}.enemy-state{font-size:12px}.enemy-health-track{height:10px}.enemy-health-foot{font-size:12px;margin-top:6px}.enemy-name-row{margin-bottom:6px}
+ #app .help.aaa-help{width:calc(100% - 28px);max-width:none;padding:22px;max-height:85dvh}#app .aaa-help h2{font-size:28px}#app .aaa-help dt,#app .aaa-help dd{font-size:13px}#app .aaa-help dl>div{min-height:46px;gap:10px}#app .aaa-help kbd{font-size:12px;min-width:24px;min-height:25px}#app .aaa-help p{font-size:13px}
+ .aaa-fog-setting{font-size:14px;gap:8px}.aaa-fog-setting input{width:135px}
+ #app .aaa-pause{left:14px;width:calc(100% - 28px);max-width:none;min-width:0;padding:28px}#app .aaa-pause h2{font-size:35px}#app .aaa-pause p{font-size:19px}#app .aaa-pause .primary{font-size:19px;min-width:240px;height:54px}#app .aaa-pause>span{font-size:13px}
+ #app .toast{font-size:14px;padding:12px 20px}
+}
+@media(pointer:coarse){
+ .aaa-started .touch-controls{bottom:210px!important;left:14px;right:14px}
+ .touch-pad>div{gap:8px;margin-top:8px}.touch-actions{display:grid;grid-template-columns:repeat(2,52px);gap:8px}
+ .touch-controls button,.touch-actions button:last-child{width:52px;height:52px}
+}
+@media(max-width:380px){
+ .aaa-vitals{left:12px}.aaa-seal{width:50px;height:50px}.aaa-vital-body{width:140px}.aaa-meter{width:110px}.aaa-meter.spirit{width:100px}
+ .aaa-objective{right:12px;max-width:126px}.aaa-tools{top:122px}.aaa-abilities{right:12px}.aaa-ability{width:64px}.aaa-ability-row{gap:8px}.aaa-stance{left:12px;min-width:146px}
+}
+@media(max-height:500px) and (min-aspect-ratio:4/3){
+ .aaa-vitals{top:12px;left:18px}.aaa-seal{width:56px;height:56px}.aaa-character-name{font-size:18px;margin-bottom:4px}.aaa-compass{display:none}
+ .aaa-objective{top:12px;right:18px}.aaa-objective h2{font-size:18px;margin-bottom:4px}.aaa-objective p{font-size:14px;margin-bottom:4px}.aaa-objective small{font-size:12px}
+ .aaa-tools{top:94px;right:16px;gap:6px}.aaa-tool{width:38px;height:38px}
+ .aaa-stance{bottom:32px;left:18px;min-width:260px}.aaa-stance-title{font-size:17px}.aaa-stance-mark,.aaa-stance-mark>.aaa-icon{width:40px;height:40px}
+ .aaa-abilities{right:18px;bottom:15px}.aaa-ability{width:68px}.aaa-medallion{width:60px;height:60px}.aaa-medallion>.aaa-icon{width:76px;height:76px}.aaa-ability-name{font-size:15px;margin:8px 0 4px}.aaa-ability kbd{font-size:14px;height:25px;width:29px;line-height:22px}.aaa-ability-link{width:18px;height:18px;margin-top:-42px}.aaa-input-hint{font-size:12px;margin-top:10px;padding-top:8px}
+ #app .aaa-pause{top:50%;bottom:auto;transform:translateY(-50%);padding:24px 32px}#app .aaa-pause h2{font-size:34px;margin-bottom:16px}#app .aaa-pause p{font-size:18px;margin-bottom:10px}#app .aaa-pause .primary{height:48px;font-size:19px}
+}
+@media(pointer:coarse) and (max-height:500px) and (min-aspect-ratio:4/3){
+ .aaa-started .touch-controls{right:230px;bottom:90px!important}
+ .touch-actions{position:fixed;right:230px;top:max(234px,calc(100dvh - 136px))}
+}

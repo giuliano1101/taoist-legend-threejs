@@ -1,0 +1,32 @@
+# Secrets and workstation state
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+.game-browser/
+.openai/
+.codex/
+.agents/
+.taste-skill/
+.DS_Store
+Thumbs.db
+desktop.ini
+# Dependencies, caches, raw sources and historical delivery copies
+node_modules/
+__pycache__/
+*.pyc
+runtime/
+backups/
+release-*/
+test-results/
+artwork/
+*.zip
+*.7z
+*.blend
+*.blend1
+*.pdb
+*.log
+public-export/
+TaoistLegend.exe

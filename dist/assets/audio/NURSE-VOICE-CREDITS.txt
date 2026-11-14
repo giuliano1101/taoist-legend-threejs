@@ -1,0 +1,21 @@
+Nurse vocal performances: mvVoiceActing (Freesound), CC0 1.0.
+License: https://creativecommons.org/publicdomain/zero/1.0/
+
+Female Zombie (238644), used for idle-a / idle-b:
+https://freesound.org/people/mvVoiceActing/sounds/238644/
+
+rpg - zombie girl battle sounds.wav (347349), used for attack / hurt:
+https://freesound.org/people/mvVoiceActing/sounds/347349/
+
+Girl Crying (218184), used for cry-a / cry-b:
+https://freesound.org/people/mvVoiceActing/sounds/218184/
+
+Local edits: excerpting, mono conversion, 32kHz resampling, high/low-pass EQ,
+gentle compression, normalization, fades and subtle crying reflections.
+Natural performance pitch is retained; per-character playback variation is
+limited to 0.985 / 1.000 / 1.015. No original synthetic male growl is mixed in.
+All six OGG files are packaged locally and decoded before entering gameplay.
+
+
+Public source and editing notes: ASSETS.md and THIRD_PARTY_NOTICES.md.
+Raw source recordings are intentionally not duplicated in this repository.

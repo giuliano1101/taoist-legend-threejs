@@ -1,0 +1,24 @@
+name: Bug report / 问题反馈
+description: Report a reproducible gameplay or startup issue.
+body:
+  - type: markdown
+    attributes:
+      value: 请勿上传密钥、私人路径、浏览器配置或未经授权的素材。安全问题请使用 SECURITY.md 所述私密渠道。
+  - type: textarea
+    id: steps
+    attributes:
+      label: 重现步骤
+      description: 说明从启动到问题出现的最短操作。
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: 预期与实际结果
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: 浏览器、系统、GPU 与版本
+      description: 不需要账户名、完整机器信息或私人文件路径。

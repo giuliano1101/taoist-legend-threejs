@@ -1,0 +1,93 @@
+/* Generated brass/lacquer skins extend the incumbent icon family. */
+:root{--ui-panel:url('./assets/ui/lacquer-panel.png');--ui-banner:url('./assets/ui/brass-banner.png');--ui-ink:#0b120f;--ui-text:#f4e8c9;--ui-muted:#c6b895;--ui-focus:#f3d99f;--ui-danger:#e69b7e}
+body{scrollbar-color:#9c8351 #0b120f;scrollbar-width:thin}
+body:before{content:'';position:fixed;top:-2px;left:-2px;width:1px;height:1px;background-image:var(--ui-panel),var(--ui-banner);pointer-events:none}
+::selection{background:#725b31;color:#fff3d5}
+button,input{font-family:var(--hud-type)}
+button:focus-visible,input:focus-visible{outline:2px solid var(--ui-focus)!important;outline-offset:4px}
+button:disabled{cursor:wait;opacity:.45}
+#app:has(#pause:not([hidden])):after,#app:has(#help:not([hidden])):after{content:'';position:absolute;inset:0;z-index:7;background:#0207058c;pointer-events:none}
+body:has(#pause:not([hidden])) .aaa-hud,body:has(#help:not([hidden])) .aaa-hud{visibility:hidden}
+#app .aaa-pause,#app .help.aaa-help{box-sizing:border-box;border:32px solid transparent;border-image:var(--ui-panel) 260 fill / 32px / 0 stretch;background:none;border-radius:0;box-shadow:none;color:var(--ui-text);text-shadow:none}
+#app .aaa-pause{position:absolute;left:50%;top:50%;bottom:auto;transform:translate(-50%,-50%);width:452px;min-width:0;max-width:calc(100vw - 32px);max-height:calc(100dvh - 32px);padding:14px 24px 20px;overflow:auto;z-index:10;text-align:center;font-family:var(--hud-type)}
+.ui-menu-mark{width:76px;height:76px;margin:0 auto 16px;pointer-events:none}
+.ui-menu-mark .aaa-icon{display:block;width:100%;height:100%}
+#app .aaa-pause>p{font:500 14px/1.5 var(--hud-type);letter-spacing:.14em;color:var(--ui-muted);margin:0 0 12px}
+#app .aaa-pause h2{font:500 42px/1.3 var(--hud-type);letter-spacing:.1em;margin:0 0 28px;color:var(--ui-text)}
+#app .aaa-pause .primary,#app #launch-screen #start-button,#app #retry-button{box-sizing:border-box;border:12px solid transparent;border-left-width:23px;border-right-width:23px;border-image:var(--ui-banner) 250 440 fill / 12px 23px / 0 stretch;background:none;border-radius:0;color:var(--ui-text);justify-content:center;transition:filter .15s ease,transform .15s ease}
+#app .aaa-pause .primary{height:64px;min-width:0;width:100%;padding:0 6px;font:500 22px/1.25 var(--hud-type);letter-spacing:.12em;gap:18px}
+#app .aaa-pause .primary:hover,#app #launch-screen #start-button:hover,#app #retry-button:hover{background:none;filter:brightness(1.25)}
+#app .aaa-pause .primary:active,#app #launch-screen #start-button:active{transform:translateY(1px)}
+#resume-button>span[aria-hidden]{font-size:0;width:10px;height:10px;border-right:1px solid currentColor;border-top:1px solid currentColor;transform:rotate(45deg)}
+.ui-menu-secondary{display:flex;justify-content:center;gap:14px;margin:16px 0 20px}
+.ui-menu-secondary button{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:none;border:0;color:var(--ui-muted);padding:6px 4px;min-height:44px;cursor:pointer;font:15px/1.35 var(--hud-type)}
+.ui-menu-secondary button:hover{color:var(--ui-text)}
+.ui-menu-secondary .aaa-icon{width:30px;height:30px;display:inline-block;flex:none}
+#app .aaa-pause>span{display:block;color:var(--ui-muted);font:14px/1.5 var(--hud-type)}
+body[data-game-mode=defeated] #pause h2{color:var(--ui-danger)}
+body[data-game-mode=defeated] #pause .ui-menu-mark{filter:sepia(.25)}
+#app .help.aaa-help{width:740px;max-width:calc(100vw - 32px);max-height:calc(100dvh - 48px);top:50%;left:50%;right:auto;transform:translate(-50%,-50%);padding:12px 24px 18px;overflow:auto;z-index:12}
+#app .aaa-help .help-heading{position:sticky;top:-12px;z-index:2;display:flex;align-items:center;justify-content:space-between;gap:16px;margin:0 0 20px;padding:12px 0 16px;background:#0a110e;border-bottom:1px solid #89734466}
+#app .aaa-help h2{font:500 30px/1.35 var(--hud-type);letter-spacing:.14em;margin:0;display:flex;align-items:center;gap:14px}
+.ui-help-mark{display:block;flex:none;width:48px;height:48px}
+.ui-help-mark .aaa-icon{display:block;width:100%;height:100%}
+#app .aaa-help #close-help{height:44px;width:44px;padding:10px;flex:none;border:1px solid #8b7548;background:#121b15;color:var(--ui-text);clip-path:polygon(7px 0,100% 0,100% calc(100% - 7px),calc(100% - 7px) 100%,0 100%,0 7px)}
+#app .aaa-help #close-help:hover{background:#293222}
+#app .aaa-help dl{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:24px;row-gap:0;margin:0}
+#app .aaa-help dl>div{min-height:54px;display:flex;align-items:center;justify-content:space-between;gap:12px;border-bottom:1px solid #b69b6129;padding:7px 0}
+#app .aaa-help dt,#app .aaa-help dd{font:15px/1.5 var(--hud-type);margin:0}
+#app .aaa-help dt{color:var(--ui-text);flex-shrink:0}
+#app .aaa-help dd{color:var(--ui-muted);text-align:right}
+#app .aaa-help kbd,#app .aaa-ability kbd{border:1px solid #aa8d55;background:#141d17;color:var(--ui-text);border-radius:0;box-shadow:inset 0 -2px #66512f55}
+#app .aaa-help kbd{display:inline-flex;min-height:29px;min-width:27px;align-items:center;justify-content:center;padding:3px 5px;font:13px/1.15 var(--hud-type);margin-right:3px}
+#app .aaa-help>p{font:14px/1.85 var(--hud-type);color:var(--ui-muted);margin:20px 0 0;padding-top:16px;border-top:1px solid #b69b6144}
+#app .aaa-fog-setting{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;font:16px/1.5 var(--hud-type);color:var(--ui-text);margin-top:18px;padding-top:10px;border:0}
+.aaa-fog-symbol{width:38px;height:38px;flex:none}.aaa-fog-symbol .aaa-icon{width:100%;height:100%}
+.aaa-fog-setting input{flex:1;max-width:240px;min-width:100px;height:24px;accent-color:var(--hud-gold);cursor:pointer}
+.aaa-fog-setting input::-webkit-slider-runnable-track{height:5px;background:#897344;border:1px solid #baa06a}
+.aaa-fog-setting input::-webkit-slider-thumb{margin-top:-6px}
+#app .toast{box-sizing:border-box;left:50%;top:145px;bottom:auto;transform:translateX(-50%);width:max-content;max-width:min(520px,calc(100vw - 36px));min-height:88px;z-index:6;display:flex;align-items:center;justify-content:center;border:18px solid transparent;border-left-width:30px;border-right-width:30px;border-image:var(--ui-banner) 250 440 fill / 18px 30px / 0 stretch;background:none;padding:8px 18px 8px 58px;color:var(--ui-text);font:500 19px/1.5 var(--hud-type);text-align:center;letter-spacing:.05em;white-space:normal;text-shadow:none;pointer-events:none}
+#app .toast:before{content:'';position:absolute;left:7px;top:50%;transform:translateY(-50%);width:44px;height:44px;background:url('./assets/ui/wuxia-icons.png') 94.6224% 94.2792% / 330% 330% no-repeat}
+#app .toast[hidden]{display:none}
+#app .aaa-location{border:8px solid transparent;border-left-width:18px;border-right-width:18px;border-image:var(--ui-banner) 250 440 fill / 8px 18px / 0 stretch;background:none;padding:2px 12px}
+#app .aaa-location:before,#app .aaa-location:after{display:none}
+.enemy-health-track{border-color:#b79960;background:#0b100cf2}.enemy-health-track:before,.enemy-health-track:after{background:#151c12;border-color:#c4a46b}
+#app #launch-screen #start-button{height:clamp(44px,5cqw,64px);padding:0 8px;border-image-width:12px 23px;letter-spacing:.12em}
+#app #retry-button{min-height:46px;margin-top:8px;padding:0 10px}
+#launch-screen .progress-track{border-color:#b89c66;background:#0b140f;box-shadow:inset 0 1px 2px #000}
+#launch-screen #progress{background:#dac28a}
+.touch-controls button,.touch-actions button:last-child{border:1px solid #b2965f;border-radius:0;background:#0c1612ed;color:var(--ui-text);font-family:var(--hud-type);box-shadow:inset 0 0 0 3px #af915126;clip-path:polygon(7px 0,100% 0,100% calc(100% - 7px),calc(100% - 7px) 100%,0 100%,0 7px)}
+.touch-controls button.pressed{background:#364133;color:#fff1ca}.touch-pad svg{width:22px;height:22px;display:block;margin:auto}
+.aaa-tool.muted:after{background:#e1a789}
+#app #loading-voice{box-sizing:border-box;border:10px solid transparent;border-left-width:18px;border-right-width:18px;border-image:var(--ui-banner) 250 440 fill / 10px 18px / 0 stretch;background:none;padding:3px 7px;min-height:46px;color:var(--ui-text);font:clamp(12px,1.25cqw,17px)/1.4 var(--hud-type)}
+#app #loading-voice:hover{background:none;filter:brightness(1.2)}
+#app .voice-caption{border:10px solid transparent;border-left-width:22px;border-right-width:22px;border-image:var(--ui-banner) 250 440 fill / 10px 22px / 0 stretch;background:none;padding:4px 10px;color:var(--ui-text);font-family:var(--hud-type);text-shadow:none}
+body:has(#hero-voice-caption:not([hidden])) #toast,body:has(#pause:not([hidden])) #hero-voice-caption,body:has(#help:not([hidden])) #hero-voice-caption{visibility:hidden}
+@media(max-width:1000px){#app .help.aaa-help{width:680px;padding:8px 18px 16px}#app .aaa-help dl{column-gap:20px}#app .aaa-help dt,#app .aaa-help dd{font-size:14px}#app .aaa-help dl>div{gap:7px}}
+@media(max-width:650px){
+ #app .aaa-pause{width:360px;max-width:calc(100vw - 28px);border-width:24px;border-image-width:24px;padding:14px 12px 18px;max-height:calc(100dvh - 32px)}
+ .ui-menu-mark{width:66px;height:66px;margin-bottom:14px}#app .aaa-pause>p{font-size:13px;letter-spacing:.07em}#app .aaa-pause h2{font-size:35px;margin-bottom:24px}
+ #app .aaa-pause .primary{font-size:20px;height:60px}.ui-menu-secondary{gap:12px;margin:12px 0 18px}.ui-menu-secondary button{font-size:14px}.ui-menu-secondary .aaa-icon{width:26px;height:26px}#app .aaa-pause>span{font-size:13px}
+ #app .help.aaa-help{width:calc(100vw - 24px);max-width:none;border-width:24px;border-image-width:24px;padding:4px 10px 14px;max-height:calc(100dvh - 32px)}
+ #app .aaa-help .help-heading{top:-4px;padding-top:4px;margin-bottom:12px}#app .aaa-help h2{font-size:25px;gap:10px}.ui-help-mark{width:38px;height:38px}
+ #app .aaa-help dl{grid-template-columns:minmax(0,1fr)}#app .aaa-help dl>div{min-height:48px;padding:7px 0}#app .aaa-help dt,#app .aaa-help dd{font-size:14px}
+ #app .aaa-help>p{font-size:13px;line-height:1.85;margin-top:16px}#app .aaa-fog-setting{font-size:14px;gap:8px}.aaa-fog-setting input{max-width:145px}
+ #app .toast{top:184px;min-height:76px;font-size:16px;max-width:calc(100vw - 28px);border-width:14px 24px;border-image-width:14px 24px;padding:5px 8px 5px 40px;letter-spacing:.01em}#app .toast:before{left:1px;width:33px;height:33px}
+ #app #launch-screen #start-button{height:44px;width:190px;font-size:16px}
+ #app #loading-voice{min-height:40px;border-width:8px 14px;border-image-width:8px 14px;font-size:12px;padding:2px 4px}
+ #app #loading-voice-caption{bottom:33%;left:7%;right:7%;font-size:12px;line-height:1.6;padding:3px 6px;border-width:8px 14px;border-image-width:8px 14px}
+ #app #hero-voice-caption{top:280px;bottom:auto;font-size:15px;line-height:1.6}
+}
+@media(max-height:500px) and (min-aspect-ratio:4/3){
+ #app .aaa-pause{width:400px;max-height:calc(100dvh - 20px);border-width:22px;border-image-width:22px;padding:8px 20px 10px}.ui-menu-mark{width:46px;height:46px;margin-bottom:6px}
+ #app .aaa-pause>p{font-size:12px;margin-bottom:6px}#app .aaa-pause h2{font-size:29px;margin-bottom:16px}#app .aaa-pause .primary{height:52px;font-size:19px}.ui-menu-secondary{margin:5px 0 8px}#app .aaa-pause>span{font-size:12px}
+ #app .help.aaa-help{width:min(720px,calc(100vw - 32px));max-height:calc(100dvh - 20px);border-width:20px;border-image-width:20px;padding:4px 16px 12px}#app .aaa-help .help-heading{top:-4px;margin-bottom:8px;padding:4px 0 10px}#app .aaa-help h2{font-size:24px}.ui-help-mark{width:36px;height:36px}
+ #app .aaa-help dl{grid-template-columns:repeat(2,minmax(0,1fr))}#app .aaa-help dl>div{min-height:46px}#app .aaa-help dt,#app .aaa-help dd{font-size:13px}
+ #app .toast{top:calc(50% + 28px);max-width:48vw;min-height:64px;border-width:12px 20px;border-image-width:12px 20px;font-size:14px;padding:3px 6px 3px 34px}#app .toast:before{width:28px;height:28px}
+ #app #hero-voice-caption{top:calc(50% + 32px);bottom:auto;max-width:48vw;font-size:14px;line-height:1.6}
+}
+@media(prefers-reduced-motion:reduce){#app .primary,#app #start-button{transition:none}}
+/* Keep subtitles in the free column between the two touch clusters. */
+@media(pointer:coarse) and (max-height:500px) and (min-aspect-ratio:4/3){
+ #app #hero-voice-caption{left:calc(50% - 78px);width:calc(100vw - 556px);max-width:330px;top:calc(50% + 32px);font-size:13px;border-width:8px 14px;border-image-width:8px 14px;padding:3px 4px;letter-spacing:0}
+}

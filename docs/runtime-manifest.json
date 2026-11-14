@@ -1,0 +1,357 @@
+[
+  {
+    "path": "dist/assets/audio/fog-alley-night.ogg",
+    "bytes": 430527,
+    "sha256": "5680e15c5bc3060147898926c29372158a84ad206f84f3ec5ec3f594f69ff1ea"
+  },
+  {
+    "path": "dist/assets/audio/hero-loading.ogg",
+    "bytes": 44372,
+    "sha256": "35387f13c34c68b1f991d05ea57b9fecdd792cbc1359d924459bd175fe560875"
+  },
+  {
+    "path": "dist/assets/audio/hero-opening.ogg",
+    "bytes": 39118,
+    "sha256": "33ccd39fa528abb44d67dc55344495980d7cbc440f05f822b3c5c63577ce3114"
+  },
+  {
+    "path": "dist/assets/audio/NURSE-VOICE-CREDITS.txt",
+    "bytes": 996,
+    "sha256": "de46734f936c8929e612ec5ac8b451b068f89d9c4356e61fd940d49bebdda8cd"
+  },
+  {
+    "path": "dist/assets/audio/zombie-attack.ogg",
+    "bytes": 14546,
+    "sha256": "5852829f205c01d4bcb91696da3f81886800ed4f3dd6fecd42929840182e58f0"
+  },
+  {
+    "path": "dist/assets/audio/zombie-cry-a.ogg",
+    "bytes": 37076,
+    "sha256": "73bf2cdf2efc873434be8ce988489b115548938b48d65400f8b5e486e25a6607"
+  },
+  {
+    "path": "dist/assets/audio/zombie-cry-b.ogg",
+    "bytes": 47517,
+    "sha256": "0ede565b3c29f24062d9d0dfb58c66518cba7c70bed333fcd643a9308a3ad5b8"
+  },
+  {
+    "path": "dist/assets/audio/zombie-hurt.ogg",
+    "bytes": 8285,
+    "sha256": "f1a179719745d286d890185e653ef04cc2da3ef4cc1f1c58ac3deccac7422ead"
+  },
+  {
+    "path": "dist/assets/audio/zombie-idle-a.ogg",
+    "bytes": 21336,
+    "sha256": "6b6db545fbf1f303772b9952019198b61e682d02f1686a08bae3c4c2820e77c7"
+  },
+  {
+    "path": "dist/assets/audio/zombie-idle-b.ogg",
+    "bytes": 21823,
+    "sha256": "55411316cd9dc30a7d0d0267bd6736f7a35f640c1dd90404edb1f1448c96c49b"
+  },
+  {
+    "path": "dist/assets/corridor-navigation.json",
+    "bytes": 524727,
+    "sha256": "c4a2564639c52a1ceea358bca34c8f7a69229ee10b26c80ac33fb2d557286fe6"
+  },
+  {
+    "path": "dist/assets/corridor.spz",
+    "bytes": 32772851,
+    "sha256": "fafd2a4447e0341459cba904ae7af6bd857904824a4a862fec990a29ccecc90c"
+  },
+  {
+    "path": "dist/assets/cover/lin-zhengying-cover-4x3.png",
+    "bytes": 2945603,
+    "sha256": "5138eb2089bdc2baa9e543543d7fb7ba78ff54bf156edf7ac2558ab33abf110b"
+  },
+  {
+    "path": "dist/assets/enemy/nurse.glb",
+    "bytes": 32256268,
+    "sha256": "8c731377dcfc033a6be9765505c8527b6a96c4a767a46dd576e9e01caaf3f328"
+  },
+  {
+    "path": "dist/assets/locomotion-reference.json",
+    "bytes": 36294,
+    "sha256": "7a251fd55f382002510f7e0803f636c7ebf014c263fc759bc9899954ca95cafd"
+  },
+  {
+    "path": "dist/assets/taoist-source/diffuse.png",
+    "bytes": 348273,
+    "sha256": "78ab2933e731608fac74d9764f91b6d78ac0af7afad238d48055846ff4d5a6c7"
+  },
+  {
+    "path": "dist/assets/taoist-source/normal.png",
+    "bytes": 315408,
+    "sha256": "55cce2353ae433fbd70d1f4e279341494d402bde94c15778736198d09d2e4b2b"
+  },
+  {
+    "path": "dist/assets/taoist-source/skin.fbx",
+    "bytes": 7756752,
+    "sha256": "a04f8f3f8721b1ef80725513115b169723682beba3270fa8ec7043cca8acb9a9"
+  },
+  {
+    "path": "dist/assets/taoist-source/surface-mask.png",
+    "bytes": 311753,
+    "sha256": "f7f009db5018c3dd880283ee4a6af81927796f66c420a61302fb8d0d96358d23"
+  },
+  {
+    "path": "dist/assets/taoist-source/weapon-normal.png",
+    "bytes": 309347,
+    "sha256": "c96fb44dcf85e002e2a86f521677934b975595e0c4ae9a3f2dba69fd10ad19a0"
+  },
+  {
+    "path": "dist/assets/taoist-source/weapon.png",
+    "bytes": 326757,
+    "sha256": "2e5de61dcfae31f5abbd17ae480859ad7e9b57006d2055104f2534ddde2f2e0d"
+  },
+  {
+    "path": "dist/assets/ui/brass-banner.png",
+    "bytes": 1634423,
+    "sha256": "592c9fb38e2e921ae375315e7e921b773914960c5fa6eb73135db32f5ef854f9"
+  },
+  {
+    "path": "dist/assets/ui/lacquer-panel.png",
+    "bytes": 1846660,
+    "sha256": "bb9b69a582146eaa37030c93c22d77c9e7f4b4c6718e68d44d5380d79680fa71"
+  },
+  {
+    "path": "dist/assets/ui/wuxia-icons.png",
+    "bytes": 1805261,
+    "sha256": "addc4a5bbdba5dd9dc29fb48600547b1b12653b4f720bcf40be4df7e2911f869"
+  },
+  {
+    "path": "dist/atmosphere.js",
+    "bytes": 8165,
+    "sha256": "469c6baec434017da65e04fb3282c90bbe72a5bfe61fe2dd0b161c69a90183f6"
+  },
+  {
+    "path": "dist/camera-rig.js",
+    "bytes": 4506,
+    "sha256": "07a12e6ada0ccbb374146c5eec8cb11e63f10b87543636472d646192cb3c2cb2"
+  },
+  {
+    "path": "dist/character.js",
+    "bytes": 9912,
+    "sha256": "c2262dfca823b1bc3fb8026b71ffeec0bf8502f3c92eac4f30f25e1160968b02"
+  },
+  {
+    "path": "dist/cloth.js",
+    "bytes": 3918,
+    "sha256": "2237f782606148062a8524a6ed388473d9b8f575c2c8ec2404456c9543684f8d"
+  },
+  {
+    "path": "dist/combat-effects.js",
+    "bytes": 18048,
+    "sha256": "9fe9caa748647409bd6e9dea1d4180a159b004b0e7a2e7b823115933169f1247"
+  },
+  {
+    "path": "dist/crescent-qi.js",
+    "bytes": 3497,
+    "sha256": "e7a4277d5a214d2293228c68086284424a6f50b5afbadde58a28f0daa09e105f"
+  },
+  {
+    "path": "dist/enemies.js",
+    "bytes": 18481,
+    "sha256": "65e7eaa9aa30b7548eb1b79e4b3a00effc7e5ccce890cca94aa0fafb7d44c090"
+  },
+  {
+    "path": "dist/enemy-health-ui.css",
+    "bytes": 2231,
+    "sha256": "5a31c10b35d2b33e55f1361345456186fbe27fe0051891fee3e458e0f72a1d58"
+  },
+  {
+    "path": "dist/enemy-health-ui.js",
+    "bytes": 4623,
+    "sha256": "beedf2dbce2dd275108ea81359a74907523645068ab5c177cb5d08a7f8196dfa"
+  },
+  {
+    "path": "dist/enemy-routes.js",
+    "bytes": 2557,
+    "sha256": "a77c4ed5b2911ecee67b363ccdb86c4d66424bfe3823682a002768a8969df287"
+  },
+  {
+    "path": "dist/flame.js",
+    "bytes": 3635,
+    "sha256": "fc4bb943d591cb9959f8006e2056c3d829a54d6337e1faa4ee75918a7b16143b"
+  },
+  {
+    "path": "dist/fonts/kongjing-serif.woff2",
+    "bytes": 55520,
+    "sha256": "a82f43b66725464599186edaa5233c17b62ba201f707a118eebf4eb26fab57b0"
+  },
+  {
+    "path": "dist/fonts/OFL.txt",
+    "bytes": 4350,
+    "sha256": "5e0da210fb04058a8c0087985d2d456b931c2579811a49655721d3cf0c36b6d6"
+  },
+  {
+    "path": "dist/game.js",
+    "bytes": 27834,
+    "sha256": "d611c84813a272072f34855f5ab6d1c724017e2538bdb7e6c22817721d42667a"
+  },
+  {
+    "path": "dist/ground-emergence.js",
+    "bytes": 5781,
+    "sha256": "4b231d6844dbdbc292866c2f2878910dd861edc54848ddcd6ad0de0b14d7728c"
+  },
+  {
+    "path": "dist/hero-voices.css",
+    "bytes": 2106,
+    "sha256": "05a610a1bd1a2e291e74d81ceb64cb8d59f10c09485e4719edfeabe6f870e140"
+  },
+  {
+    "path": "dist/hero-voices.js",
+    "bytes": 3188,
+    "sha256": "c6461f794707635d7addadae33263aadea2a550ab1c9397337467f12a3df37fd"
+  },
+  {
+    "path": "dist/horror-bgm.js",
+    "bytes": 2364,
+    "sha256": "aaa084043e3d33ff7dd14bdea7ab573d4fefda4a2b3d5acac16e1721852e09bb"
+  },
+  {
+    "path": "dist/hud-readable.css",
+    "bytes": 11645,
+    "sha256": "1616382c43352baf69742a1f6cc9b3e6ff009d749959ee923d47086b1a9d7286"
+  },
+  {
+    "path": "dist/index.html",
+    "bytes": 7465,
+    "sha256": "0dd374c272728c9477cd78004043860c555055b01b8a0f7e50954ffe697fab14"
+  },
+  {
+    "path": "dist/launch-cover43.css",
+    "bytes": 3528,
+    "sha256": "c746bf05d3be565188cbbe25660220c53a0c39f5871dfbcc4844b2e136b47acd"
+  },
+  {
+    "path": "dist/launch-screen.js",
+    "bytes": 3179,
+    "sha256": "6d7011caf87a320d6dfe14d24b37cdf25b5231659738b81e53e3e94ce3d013a8"
+  },
+  {
+    "path": "dist/locomotion.js",
+    "bytes": 5719,
+    "sha256": "549a913a14ac890abd863324860c83225a10a704a62e3f055517b6f77ab84dea"
+  },
+  {
+    "path": "dist/materials.js",
+    "bytes": 5917,
+    "sha256": "91847d6cf860ef42c4b2bed2ca68240aa89d237bcaf1fbe1a279e68a9c1bafec"
+  },
+  {
+    "path": "dist/navigation.js",
+    "bytes": 1703,
+    "sha256": "163cf361f08395749a75d7d91c882a9aa00d146a7621f584733cdbab7820d656"
+  },
+  {
+    "path": "dist/sound.js",
+    "bytes": 5329,
+    "sha256": "55149a500fc71f7a0064c3c5436d7e0c44e683bd6ee6ddc4ccf8a827d6647236"
+  },
+  {
+    "path": "dist/style.css",
+    "bytes": 10369,
+    "sha256": "30d785011491df6454ffdea17ca78d8268d9b6f0abea8c5784b458e49b19da10"
+  },
+  {
+    "path": "dist/ui-aaa.css",
+    "bytes": 16703,
+    "sha256": "addff1dbef7842d921c038988b51a37a7e9cbd1691d42ddb11213fa16d98d433"
+  },
+  {
+    "path": "dist/ui-aaa.js",
+    "bytes": 11498,
+    "sha256": "0e1d7a44a4f7260acdf2694fa8a420a268445eb3cb5c700f61e880ff00574906"
+  },
+  {
+    "path": "dist/ui-coherent.css",
+    "bytes": 12448,
+    "sha256": "a75588dd3c843c90956b513acc3652aab46cfced99e28d34091cad375fa45c09"
+  },
+  {
+    "path": "dist/ui-coherent.js",
+    "bytes": 3194,
+    "sha256": "476a4edc6a6d6a97dcafe170dacff4ae3fd59f2a49d8ca41ad68ed6c25abba7e"
+  },
+  {
+    "path": "dist/vendor/curves/NURBSCurve.js",
+    "bytes": 3888,
+    "sha256": "bef2607618a7778455e71a1f0bd206951c382d313e2e245808cc7d3533d60fb6"
+  },
+  {
+    "path": "dist/vendor/curves/NURBSUtils.js",
+    "bytes": 10802,
+    "sha256": "c6bd7c4137d585098923f189687898ea3e8762ea3ecbe255d749a56353894379"
+  },
+  {
+    "path": "dist/vendor/libs/fflate.module.js",
+    "bytes": 89384,
+    "sha256": "209a4412eb48ce609edb4391992a792ffcc3983d30ee7e2b0b89a8c470f3cd8a"
+  },
+  {
+    "path": "dist/vendor/loaders/FBXLoader.js",
+    "bytes": 104876,
+    "sha256": "d97724a6bea228003e02c64651d969a9a62003a00be314ef6995c390116f547d"
+  },
+  {
+    "path": "dist/vendor/loaders/GLTFLoader.js",
+    "bytes": 114739,
+    "sha256": "67ac5551fdafa6e349bd80c8f8e5e39c136d6b2fb1ad647db9abb21dc86f9e4a"
+  },
+  {
+    "path": "dist/vendor/postprocessing/Pass.js",
+    "bytes": 4218,
+    "sha256": "444b409c235ead986893c472e720da1b779a56985c7d10b279c7944b52bd61c5"
+  },
+  {
+    "path": "dist/vendor/spark/LICENSE",
+    "bytes": 1088,
+    "sha256": "51829693e5dccd9ca1daa093991faac3aaa93238eb8fd5f5cb4130af85791d64"
+  },
+  {
+    "path": "dist/vendor/spark/spark.module.js",
+    "bytes": 2997944,
+    "sha256": "5ae86ab35d4ceb655db486dcc336299775bb314c280d7e5b39f64e4539f8e0e9"
+  },
+  {
+    "path": "dist/vendor/spark/SPZ-LICENSE.txt",
+    "bytes": 1069,
+    "sha256": "d2b852220d1043148f523c4154e8bf7d9c5e419aede33b4c94115cfc457e4714"
+  },
+  {
+    "path": "dist/vendor/THREE-LICENSE.txt",
+    "bytes": 1081,
+    "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+  },
+  {
+    "path": "dist/vendor/three.core.js",
+    "bytes": 1403455,
+    "sha256": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20"
+  },
+  {
+    "path": "dist/vendor/three.module.js",
+    "bytes": 603113,
+    "sha256": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a"
+  },
+  {
+    "path": "dist/vendor/utils/BufferGeometryUtils.js",
+    "bytes": 35539,
+    "sha256": "fda7e946b8e0b5ab39b779206589e7a1079a22eb24efb89d7223e03fdfb1f751"
+  },
+  {
+    "path": "dist/vendor/utils/SkeletonUtils.js",
+    "bytes": 11062,
+    "sha256": "0761b1e003917b215d25dd81439d854b36034b5a57ce84c2cfe3b02428d7b253"
+  },
+  {
+    "path": "dist/zombie-motion.js",
+    "bytes": 17395,
+    "sha256": "1912942c515be9743fd55e4003a1e3a7ec9905358bcbe78c6a649a6bb826acd1"
+  },
+  {
+    "path": "dist/zombie-voices.js",
+    "bytes": 5523,
+    "sha256": "742fced41d4d3973f7481a357cadddefb45f8379e2573f61db238990b14d691f"
+  }
+]
