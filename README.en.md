@@ -6,8 +6,6 @@ A local third-person supernatural martial-arts game: explore a misty lantern-lit
 
 [简体中文](README.md) · [Architecture](docs/ARCHITECTURE.md) · [Asset inventory](ASSETS.md)
 
-**Current status:** private development archive; no public launch. Original project code and documentation are MIT-licensed. Included third-party and rights-pending assets are not covered by that grant. Public redistribution requires the checks in [the release checklist](docs/PUBLIC_RELEASE_CHECKLIST.md).
-
 ## Run locally
 
 Use Node.js 22+ and a WebGL2-capable Chrome/Edge browser with hardware acceleration.

@@ -8,8 +8,6 @@
 
 [English](README.en.md) · [操作与启动](docs/GETTING_STARTED.md) · [架构](docs/ARCHITECTURE.md) · [开发记录](docs/DEVELOPMENT.md) · [素材与许可](ASSETS.md) · [公开前准备](docs/PUBLIC_RELEASE_CHECKLIST.md)
 
-> 当前是私有开发归档，未公开发布。自编代码与文档采用 MIT；附带模型、环境与部分视听素材不包含在该授权中，详见素材清单。仓库的公开发布条件尚未全部满足。
-
 ## 玩法
 
 - **越肩探索**：约 54.7 米连续可走古巷，地形采样、墙体避让与相机碰撞。
